@@ -1,11 +1,11 @@
 # Dictionary
 dictionary = {
-    'weapons': [1,2,3],
+    'weapons': ["sword","bow","daggers"],
     'greeting': 'hello',
     'is_Magic': True
 }
 my_list = [
-    {    'a': [1,2,3],
+    {'a': [1,2,3],
     'b': 'hello',
     'x': True
     },
@@ -16,4 +16,4 @@ my_list = [
     }
 ]
 print(my_list[0]['a'][2])
-print(dictionary['a'][1])
+print(dictionary['weapons'][1])
